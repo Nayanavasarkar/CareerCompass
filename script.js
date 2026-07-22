@@ -1,5 +1,11 @@
-const button = document.querySelector("button");
+const button = document.querySelector("#startBtn");
 
-button.addEventListener("click", function () {
-    alert("Welcome to CareerCompass!");
+button.addEventListener("click", function(){
+
+    document.querySelector("#features").scrollIntoView({
+
+        behavior:"smooth"
+
+    });
+
 });
